@@ -1,0 +1,160 @@
+html {
+    background: #E4FDE1;
+    max-width: 100%;
+
+}
+
+.logo {
+    position: absolute;
+    width: 207px;
+    height: 52px;
+    left: 110px;
+    top: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56.25px;
+    line-height: 65px;
+}
+
+.header {
+    background: #456990;
+    position: absolute; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    height: 89px;
+    left: 90px;
+    top: 0px;
+    right: 90px;
+    
+}
+
+.home {
+    position: absolute;
+    width: 112px;
+    height: 39px;
+    left: 395px;
+    top: 52px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+
+color: #F45B69;
+}
+
+.about {
+    position: absolute;
+    width: 101px;
+    height: 38px;
+    left: 539px;
+    top: 58px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+.work {
+    position: absolute;
+    width: 81px;
+    height: 38px;
+    left: 672px;
+    top: 58px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+.contact{
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 785px;
+    top: 58px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+}
+
+.main {
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    right: 90px;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.35);  
+}
+
+.welcome {
+    position: absolute;
+    width: 430px;
+    height: 128px;
+    left: 425px;
+    top: 140px;
+
+    font-family: Vesper Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 189px;
+    text-align: center;
+
+}
+
+.welcome2 {
+    position: absolute;
+    width: 376px;
+    height: 120px;
+    left: 452px;
+    top: 45%;
+    
+    font-family: Trykker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+footer {
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    bottom: 0px;
+    height: 89px;
+    background: #114B5F;
+    text-align: center;
+}
+
+.afoot {
+    color: white;
+    position: absolute;
+    height: 25px;
+    left: 584px;
+    top: 33.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-decoration: none;
+}
