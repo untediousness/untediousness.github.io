@@ -3,28 +3,67 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        
         <title>
             Ted Kim | Personal Website
         </title>
 
     </head>
     <body>
+        <main>
         <div id="top">
             <nav class="header">
-                <a class="logo">Ted Kim</a>
-                <a href="home.html/" class="home">home</a>
-                <a href="about.html/" class="about">about</a>
-                <a href="work.html/" class="work">work</a>
-                <a href="contact.html/" class="contact">contact</a>
+                <a class="name">Ted Kim</a>
+                <!--a class="home">home</a>-->
+                <a class="about" href="#about">about</a>
+                <a class="work" href="#work">work</a>
+                <a class="contact" href="#contact">contact</a>
             </nav>
         </div>
-       <div class="main">
+       <div class="welcomebox">
             <div class="welcome">Welcome!</div>
-            <div class="welcome2">Exploring my website starts with <i style="color: #F45B69;">clicking</i> the buttons above.</div>
-       </div>
+            <div class="welcome2">Exploring my website starts with <i style="color: #F45B69;">clicking</i> the buttons above.</div>     
+        </div>
+        <div class="boxabout" id="about">
+            <div><img src="image/Ted.jpg"  class="profile"></div>
+            <div class="greetings">
+                Greetings. <br><br> My name is Ted Kim, a student director at God and Us Community, a 501(c)3 nonprofit Christian mission organization based in Los Angeles, CA. 
+                <br><br>
+                    I graduated from UCLA with a B.S. in Molecular, Cell, and Developmental Biology in 2018. As I am applying to medical school, I am spending my time to build up the ministry work I am currently doing for GNUC.
+                <br><br>
+                Please request my resume if you would like to know more about what I have done over the years. If you would like to reach me, the best way is through email. My email address is tkim@gnuc.net.
+                <br><br>
+                I will try to get back to you as soon as I can.
+                <br><br>Stay safe,<br>Ted Kim
+            </div>   
+        </div>
+        <div class="boxwork" id="work">
+            <div class="workinfo">Now:<br> Student director at <a class="gnuc" href="https://www.gnuc.net">God and Us Community</a><br>
+            Gap Year at Santa Monica College<br><br> Previously: <br> 
+                Research assistant, Lily Wu Lab at UCLA<br><br>Publication: <br><a class="gnuc" href="https://www.jove.com/video/60651/using-chicken-chorioallantoic-membrane-vivo-model-to-study">Using the Chicken Chorioallantoic Membrane In Vivo Model to Study Gynecological and Urological Cancers</a>
+                <br><br>
+            </div>
+        </div>
+        <div class="boxcontact" id="contact">
+            <form class="form" action="action_page.php">
+                <h2>CONTACT ME</h2>
+                 <p type="Name:"><input placeholder="Write your name here.."></input></p>
+                <p type="Email:"><input placeholder="Let me know how to contact you back.."></input></p>
+                <p type="Message:"><input placeholder="What would you like to tell me.."></input></p>
+                <button>Send Message</button>
+            </form>
+
+            </form>
+        </div>
+        <div class="footer">
+            <a class="afoot" href="#top">back to the top</a>
+        </div>
+        <script>
+            var footerResize = function() {
+              $('#footer').css('position', $("body").height() + $("#footer").innerHeight() > $(window).height() ? "inherit" : "fixed");
+            };
+            $(window).resize(footerResize).ready(footerResize);
+          </script>
     </body>
-    <footer>
-        <a class="afoot" href="#top"  >back to the top</a>
-    </footer>
 
 </html>
